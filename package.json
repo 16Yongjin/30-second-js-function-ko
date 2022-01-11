@@ -1,17 +1,16 @@
 {
-  "name": "30sec-js-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "js-30-fn",
+  "version": "0.0.0",
   "scripts": {
-    "start": "PORT=9999 node ."
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "surge dist"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "devDependencies": {
+    "vite": "^2.7.2"
+  },
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "cors": "^2.8.4",
-    "express": "^4.16.3"
+    "prismjs": "^1.26.0"
   }
 }
